@@ -135,3 +135,15 @@ img {
     }
 }
 
+@media screen and (max-width: 580px) {
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right {
+        width: unset;
+        padding: 1rem 0;
+    }
+    .row {
+        display: block;
+    }
+}
